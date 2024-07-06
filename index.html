@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script/script.js" defer></script>
+    <script src="script/main.js"></script>
+    <script src="script/porfio.js"></script>
+    <link rel="stylesheet" href="style/css/all.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/porfio.css" id="style">
+    <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+    <title>Acceuil</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header">
+                <div class="logo">
+                    <h1>Empire</h1>
+                </div>
+                <div class="navbar">
+                    <nav>
+                        <ul>
+                            <li class="active"><a href="index.html">Acceuil</a></li>
+                            <li><a href="apropos.html">à propos</a></li>
+                            <li><a href="portfolio.html">portfolio</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="responsive-menu"><i class="fa-solid fa-bars"></i></div>
+            </div>
+            <div class="hearder-text">
+                <h1>Bienvenue sur notre site web !</h1>
+            </div>
+        </header>
+
+        <section class="apropos">
+            <div class="apropos-items">
+                <h1><strong>Quoi</strong> de neuf ?</h1>
+                <p>Bienvenue sur notre site web ! Nous sommes un groupe d'étudiants qui suivons le cours de gestion de projet et qui travaillons ensemble pour établir une charte définissant les meilleures pratiques et les standards à suivre dans le cadre de nos travaux pratiques.</p>
+                <p>Notre objectif est de fournir un cadre de référence clair et cohérent qui nous aidera à mieux organiser nos projets de groupe, à améliorer notre collaboration et à livrer des résultats de haute qualité.</p>
+                <p>Notre groupe est composé d'étudiants en science informatique, tous inscrits dans le même cours de gestion de projet. Bien que nous partagions un socle de connaissances commun lié à notre domaine d'études, nous apportons chacun des points de vue et des expériences uniques à l'élaboration de cette charte. Certains d'entre nous ont déjà eu l'occasion de travailler sur des projets en groupe, tandis que d'autres sont plus novices dans ce domaine.</p>
+            </div>
+        </section>
+
+        <section class="portfo">
+            <h3 class="title"><span>Notre</span> équipe</h3>
+            <div id="main" class="content-box"></div>
+            <div class="_btn"><a href="portfolio.html">Voir plus</a> <i class="fa-solid fa-angle-double-right"></i></div>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <div class="info">
+                    <div class="logo-footer">
+                        <h2>Empire</h2>
+                    </div>
+                    <div class="links-footer">
+                        <a href="index.html">Acceuil</a>
+                        <a href="apropos.html">à propos</a>
+                        <a href="portfolio.html">portfolio</a>
+                        <a href="contact.html">contact</a>
+                    </div>
+                    <div class="networks">
+                        <div><i class="fa-brands fa-facebook"></i></div>
+                        <div><i class="fa-brands fa-twitter"></i></div>
+                        <div><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright ©2024 All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script>
+        window.addEventListener("load", function () {
+            const container = document.getElementById("main")
+            const bio = ["Informaticien", "Informaticienne"]
+            addMember(container, {
+                img: "./img/melvin.png",
+                title: "Kabengele Bukasa Melvin",
+                bio: bio[0],
+                moi:`
+                Je suis étudiant à l'UPC dans la faculté des sciences informatiques, un jeune homme fort intellectuellement qui s'adapte à toutes sortes de situations et sympa, généreux. Je suis fidèle de l'église évangélique la Borte des Brebis Bandal.
+                `,
+                identity: `
+               <div class="portfo-item2-identity">
+                    <h3>Sex</h3>
+                    <p>Masculin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né à Mbuji-mayi, le 01/08</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>Bardol KABENGELE & Solange CIAMA</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>Membre d'une famille de 4 enfants dont 2 filles et 2 garçons, dont je suis l'aîné.</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>KasaÏ Oriental</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>Katanda</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>Baluba-Lubilanji</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>Aucun</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>À Étudié au complexe scolaire Bubanj de la maternelle
+     en 4ème primaire, à l'E P 1 Lumumba la 5ème primaire, à Lycée des Archanges
+      la 6ème primaire, au complexe scolaire Saint Michel la 1ère secondaire, à 
+      l'EDAP/UPN de la 2ème secondaire en 6ième des humanités et à l'UPC de la 
+      L1-LMD jusqu'à présent.</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>compréhensif</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>Aucune</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>Football <br>
+                        <strong>Divertissement fav :</strong>Musique et jeu. <br>
+                        <strong>Animal :</strong> Aucun <br>
+                        <strong>Couleur :</strong>pas de préférence <br>
+                        <strong>Plat :</strong>Aucun <br>
+                        <strong>Acteur :</strong>Aucun <br>
+                        <strong>Musiciens :</strong>pas de de préférence <br>
+                        <strong>Films :</strong>Aucun <br>
+                        <strong>Série :</strong>Aucun
+                    </p>
+                </div>
+                `
+            })
+
+            addMember(container, {
+                img: "./img/mike.png",
+                title: "Unga Joe Mike",
+                bio: bio[0],
+                identity: `
+                <div class="portfo-item2-identity">
+                    <h3>Sex</h3>
+                    <p>Masculin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né(e) à Kinshasa, le 19/08</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>Unga & Villar</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>Je suis le cadet d’une famille de 3 et j’ai 2 sœurs</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>Maniema</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>kibombo</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>bakongola</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>lion</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>école catholique</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>Marketing</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>Aucune</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>football <br>
+                        <strong>Divertissement fav :</strong>football <br>
+                        <strong>Animal :</strong>chien <br>
+                        <strong>Couleur :</strong>pas de préférence <br>
+                        <strong>Plat :</strong>pattes carbonara <br>
+                        <strong>Acteur :</strong>Denzel washigton <br>
+                        <strong>Musiciens :</strong>pas de de préférence <br>
+                        <strong>Films :</strong>equalizer <br>
+                        <strong>Série :</strong>mangas
+                    </p>
+                </div> 
+`
+            });
+
+            addMember(container, {
+                img: "./img/kanku.png",
+                title: "Kanku mukanga Ivette ",
+                bio: bio[1],
+                moi:`
+                Je suis passionné par les motos 🏍 et des explorations, servante de Dieu à L’église de jesus de l’esprit de vérité( BIMA)
+                `,
+                identity: `
+<div class="portfo-item2-identity">
+                    <h3>Sex</h3>
+                    <p>Féminin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né(e) à Kinshasa, le 16/02</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>Mukanga & Dondja</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>une famille de 6, je suis 3 ème dont 4 filles et 2 garçons</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>Sankuru</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>Kumedjonge</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>Anono</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>Bélier</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>Complexe scolaire cardinal monsengwo : primaire, 
+     lycée kabambare : humanité</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>Aucune</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>Aucune</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>Basket <br>
+                        <strong>Divertissement fav :</strong>Danse <br>
+                        <strong>Animal :</strong>hamster <br>
+                        <strong>Couleur :</strong>Bleu <br>
+                        <strong>Plat :</strong>lituma, viande de porc <br>
+                        <strong>Acteur :</strong>Ravy <br>
+                        <strong>Musiciens :</strong>Céline Dion <br>
+                        <strong>Films :</strong>Transporteur <br>
+                        <strong>Série :</strong>Madame Fazylette et ses fille
+                    </p>
+                </div> 
+
+                `
+            })  
+
+        })
+
+
+    </script>
+</body>
+
+</html>

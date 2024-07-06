@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script/main.js"></script>
+    <script src="script/porfio.js"></script>
+    <script src="script/script.js" defer></script>
+    <link rel="stylesheet" href="style/css/all.css">
+    <link rel="stylesheet" href="style/porfio.css" id="style">
+    <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div class="header">
+                <div class="logo">
+                    <h1>Empire</h1>
+                </div>
+                <div class="navbar">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Acceuil</a></li>
+                            <li><a href="apropos.html">à propos</a></li>
+                            <li class="active"><a href="portfolio.html">portfolio</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="responsive-menu"><i class="fa-solid fa-bars"></i></div>
+            </div>
+            <div class="hearder-text">
+                <h1>Découvrez notre superbe équipe !</h1>
+            </div>
+        </header>
+    
+        <section class="portfo">
+            <h3 class="title"><span>Notre</span> équipe</h3>
+            <div id="main" class="content-box"></div>
+        </section>
+    
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="info">
+                <div class="logo-footer">
+                    <h2>Empire</h2>
+                </div>
+                <div class="links-footer">
+                    <a href="index.html">Acceuil</a>
+                    <a href="apropos.html">à propos</a>
+                    <a href="#">portfolio</a>
+                    <a href="contact.html">contact</a>
+                </div>
+                <div class="networks">
+                    <div><i class="fa-brands fa-facebook"></i></div>
+                    <div><i class="fa-brands fa-twitter"></i></div>
+                    <div><i class="fa-brands fa-instagram"></i></div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright ©2024 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        window.addEventListener("load", function () {
+            const container = document.getElementById("main")
+            const bio = ["Informaticien", "Informaticienne"]
+            addMember(container, {
+                img: "./img/melvin.png",
+                title: "Kabengele Bukasa Melvin",
+                bio: bio[0],
+                moi:`
+                Je suis étudiant à l'UPC dans la faculté des sciences informatiques, un jeune homme fort intellectuellement qui s'adapte à toutes sortes de situations et sympa, généreux. Je suis fidèle de l'église évangélique la Borte des Brebis Bandal.
+                `,
+                identity: `
+               <div class="portfo-item2-identity">
+                    <h3>Sexe</h3>
+                    <p>Masculin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né à Mbuji-mayi, le 01/08</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>Bardol KABENGELE & Solange CIAMA</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>Membre d'une famille de 4 enfants dont 2 filles et 2 garçons, dont je suis l'aîné.</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>KasaÏ Oriental</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>Katanda</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>Baluba-Lubilanji</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>Aucun</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>À Étudié au complexe scolaire Bubanj de la maternelle
+     en 4ème primaire, à l'E P 1 Lumumba la 5ème primaire, à Lycée des Archanges
+      la 6ème primaire, au complexe scolaire Saint Michel la 1ère secondaire, à 
+      l'EDAP/UPN de la 2ème secondaire en 6ième des humanités et à l'UPC de la 
+      L1-LMD jusqu'à présent.</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>Infographie, Electricité, Programmation, etc.</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>CEO de Visio TECH</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>Football <br>
+                        <strong>Divertissement fav :</strong>Musique et jeu. <br>
+                        <strong>Animal :</strong> Aucun <br>
+                        <strong>Couleur :</strong>pas de préférence <br>
+                        <strong>Plat :</strong>Aucun <br>
+                        <strong>Acteur :</strong>Aucun <br>
+                        <strong>Musiciens :</strong>pas de de préférence <br>
+                        <strong>Films :</strong>Aucun <br>
+                        <strong>Série :</strong>Aucun
+                    </p>
+                </div>
+                `
+            })
+
+            addMember(container, {
+                img: "./img/mike.png",
+                title: "Unga Joe Mike",
+                bio: bio[0],
+                moi:``,
+                identity: `
+                <div class="portfo-item2-identity">
+                    <h3>Sexe</h3>
+                    <p>Masculin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né(e) à Kinshasa, le 19/08</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>Unga & Villar</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>Je suis le cadet d’une famille de 3 et j’ai 2 sœurs</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>Maniema</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>kibombo</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>bakongola</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>lion</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>école catholique</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>Marketing</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>Aucune</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>football <br>
+                        <strong>Divertissement fav :</strong>football <br>
+                        <strong>Animal :</strong>chien <br>
+                        <strong>Couleur :</strong>pas de préférence <br>
+                        <strong>Plat :</strong>pattes carbonara <br>
+                        <strong>Acteur :</strong>Denzel washigton <br>
+                        <strong>Musiciens :</strong>pas de de préférence <br>
+                        <strong>Films :</strong>equalizer <br>
+                        <strong>Série :</strong>mangas
+                    </p>
+                </div> 
+`
+            });
+
+            addMember(container, {
+                img: "./img/kanku.png",
+                title: "Kanku mukanga Ivette ",
+                bio: bio[1],
+                moi:`
+                Je suis passionné par les motos 🏍 et des explorations, servante de Dieu à L’église de jesus de l’esprit de vérité( BIMA)
+                `,
+                identity: `
+<div class="portfo-item2-identity">
+                    <h3>Sexe</h3>
+                    <p>Féminin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né(e) à Kinshasa, le 16/02</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>Mukanga & Dondja</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>une famille de 6, je suis 3 ème dont 4 filles et 2 garçons</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>Sankuru</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>Kumedjonge</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>Anono</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>Bélier</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>Complexe scolaire cardinal monsengwo : primaire, 
+     lycée kabambare : humanité</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>Aucune</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>Aucune</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>Basket <br>
+                        <strong>Divertissement fav :</strong>Danse <br>
+                        <strong>Animal :</strong>hamster <br>
+                        <strong>Couleur :</strong>Bleu <br>
+                        <strong>Plat :</strong>lituma, viande de porc <br>
+                        <strong>Acteur :</strong>Ravy <br>
+                        <strong>Musiciens :</strong>Céline Dion <br>
+                        <strong>Films :</strong>Transporteur <br>
+                        <strong>Série :</strong>Madame Fazylette et ses fille
+                    </p>
+                </div> 
+
+                `
+            })
+
+            addMember(container, {
+                img: "./img/isambo.png",
+                title: "Isambo Elika Louis",
+                bio: bio[0],
+                moi:`
+                Je suis étudiant à l’université de protestante au Congo , je suis passionné par la mode , les voitures ,la cosmétique ains qu’on réseaux sociaux (social media manager) , je sers mon Dieu au protocole à l’église de mangembo
+                `,
+                identity: `
+<div class="portfo-item2-identity">
+                    <h3>Sexe</h3>
+                    <p>Masculin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né(e) à Bamanya, le 30/05</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>Isambo & Djideki</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>Je suis l'ainé d’une famille de 4 et 3 filles</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>Equateur</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>Lolanga</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>Bikoro</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>Lion</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>école catholique </p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>Infographie</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>Aucune</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>Football <br>
+                        <strong>Divertissement fav :</strong>Football <br>
+                        <strong>Animal :</strong>Lion <br>
+                        <strong>Couleur :</strong>Bleu <br>
+                        <strong>Plat :</strong>Riz <br>
+                        <strong>Acteur :</strong>Jackie chan <br>
+                        <strong>Musiciens :</strong>Dadju <br>
+                        <strong>Films :</strong>Qui je suis de Jackie chan <br>
+                        <strong>Série :</strong>Aucune
+                    </p>
+                </div> 
+                `})
+
+            addMember(container, {
+                img: "./img/oscar.png",
+                title: "BWABWA ILUNGA Oscar ",
+                bio: bio[0],
+                moi:``,
+                identity: `  
+<div class="portfo-item2-identity">
+                    <h3>Sexe</h3>
+                    <p>Masculin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>Congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né(e) à : KANANGA, le 11/10</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>IILUNGA & KANUPIABO</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>je suis 4ième enfant dans une famille de 5</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>Kasaï Centrale</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>Kananga</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>Kananga</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>Balance</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>C.S MAMU LUMINGU maternelle- humanités</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>Design</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>Aucune</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>Football <br>
+                        <strong>Divertissement fav :</strong>Football <br>
+                        <strong>Animal :</strong>Panthère <br>
+                        <strong>Couleur :</strong>Bleu <br>
+                        <strong>Plat :</strong>riz <br>
+                        <strong>Acteur :</strong>Therock <br>
+                        <strong>Musiciens :</strong>Gazo <br>
+                        <strong>Films :</strong>Power <br>
+                        <strong>Série :</strong>Power Book
+                    </p>
+                </div> 
+         `
+            })
+            
+            addMember(container, {
+                img: "./img/tshibwaba.png",
+                title: "Tshibuabua ntambwe Caleb",
+                bio: bio[0],
+                moi:``,
+                identity: `
+                <div class="portfo-item2-identity">
+                    <h3>Sexe</h3>
+                    <p>Masculin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>Congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né a Kinshasa le 28 /02</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>Patrick Ntambwe & Esther Nseya</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>---------</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>---------</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>---------</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>---------</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>---------</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>---------</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>Développement système</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>Aucune</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>Football <br>
+                        <strong>Divertissement fav :</strong>Football <br>
+                        <strong>Animal :</strong>chat <br>
+                        <strong>Couleur :</strong>Bleu <br>
+                        <strong>Plat :</strong>fufu <br>
+                        <strong>Acteur :</strong>lucifer mornigstar <br>
+                        <strong>Musiciens :</strong>Marvin sapp <br>
+                        <strong>Films :</strong>Avengers <br>
+                        <strong>Série :</strong>lucifer
+                    </p>
+                </div> 
+                `
+            })
+        
+            addMember(container, {
+                img: "./img/rodin.png",
+                title: "MANYAYI KALONJI Rodin",
+                bio: bio[0],
+                moi:`
+                Je suis étudiant à l’université protestante au Congo, j’exerce quelques petits métiers… je suis passionné par les voitures, nouvelles découvertes. Je suis d’une famille chrétienne, je sers Dieu dans le médias et dans la communication dans mon église qui est l’Église des nations.
+                `,
+                identity: `
+                
+                <div class="portfo-item2-identity">
+                    <h3>Sexe</h3>
+                    <p>Masculin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né(e) à Kinshasa</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>Jean-Odilon MANYAYI & Thérèse TSHINGUTA</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>Je suis le cadet d’une famille de 3 et j’ai 2 sœurs</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>Kasaï-central</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>Kazumba</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>Muswaswa</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>Balance</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>1er - 3e maternelle, 1er - 6e primaire école Saint sacrement, 1er - 2e, 3e - 6 école Marcellin mobateli.</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>Capable à Créer un site web dynamique, Crée un petit programme </p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>2 mois d’apprentissage pour photos shooting, Chauffeur coursier pendant 4 mois.</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>football <br>
+                        <strong>Divertissement fav :</strong>PlayStation, Netflix, Football, Musique, sortie et ambiance <br>
+                        <strong>Animal :</strong>chien <br>
+                        <strong>Couleur :</strong>Bleu, Blanc, Noir <br>
+                        <strong>Plat :</strong>du riz et le pondu madesu  <br>
+                        <strong>Acteur :</strong>Vin Diesel<br>
+                        <strong>Musiciens :</strong>Koffi Olomide, Fally Ipupa, JB Mpiana, Moïse mbiye, Mike Kalambay <br>
+                        <strong>Films :</strong>Fast & Furious, Avengers <br>
+                        <strong>Série :</strong>Power book Ghost, The Chi, Banshee, Magnum
+                    </p>
+                </div> 
+                `
+            })
+           
+            addMember(container, {
+                img: "./img/img2.png",
+                title: "Kitenge Kapema Exuacé",
+                bio: bio[1],
+                moi:`
+                Je suis étudiante à l’université protestante au Congo (upc), je suis passionné par la musique et les nouvelles découvertes, issue d’une famille chrétienne , suis chantre de mon église qui est la terre sacrée
+                `,
+                identity: ` 
+                <div class="portfo-item2-identity">
+                    <h3>Sexe</h3>
+                    <p>Féminin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>Congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né(e) à Kinshasa le18/04</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>Kitenge Kapema & Léontine manaka</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>Je suis d’une famille issue de six enfants dont je suis la quatrième </p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>Maniema</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>Kasongo</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>Basongue</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>Bélier</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>De la première année jusqu’à sixième des humanités je l’avais fait à G.S Fugue</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>Bureautique</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>Stage professionnel à la direction générale des douanes et accises (DGDA) en sigle.</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>Basketball <br>
+                        <strong>Divertissement fav :</strong>Rester seule en écoutant la musique assise dans la nature  <br>
+                        <strong>Animal :</strong>chien <br>
+                        <strong>Couleur :</strong>noir <br>
+                        <strong>Plat :</strong>--------- <br>
+                        <strong>Acteur :</strong>Thor <br>
+                        <strong>Musiciens :</strong>Damso <br>
+                        <strong>Films :</strong>Marvel end game <br>
+                        <strong>Série :</strong>casa de papelo
+                    </p>
+                </div> 
+`
+            })
+         
+            addMember(container, {
+                img: "./img/img1.png",
+                title: "Mboma Itinga Jemime",
+                bio: bio[1],
+                moi:`
+                Je suis Ir en science informatique je suis passionné par la sécurité informatique
+Je suis chrétienne de l’église AENA
+                `,
+                identity: `
+                <div class="portfo-item2-identity">
+                    <h3>Sexe</h3>
+                    <p>Féminin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>Congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Née à: Lubumbashi  le 13/10</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>Mboma Apiambi & Kabwe milemba</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>Je suis dans une famille de 5 dont 4 garçon et je suis là seul fille</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>Bandundu</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>---------</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>Bulungu</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>Balance</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>je fais tout mes études à Kisangani</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>Bureautique</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>Stage professionnel à la direction générale des douanes et accises (DGDA) en sigle.</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>Basketball <br>
+                        <strong>Divertissement fav :</strong>Rester seule en écoutant la musique assise dans la nature  <br>
+                        <strong>Animal :</strong>chien <br>
+                        <strong>Couleur :</strong>noir <br>
+                        <strong>Plat :</strong>Fumbwa, poissons,fufu <br>
+                        <strong>Acteur :</strong>Kevin hart <br>
+                        <strong>Musiciens :</strong>fally <br>
+                        <strong>Films :</strong>--------- <br>
+                        <strong>Série :</strong>---------
+                    </p>
+                </div> 
+`
+            })
+            
+            addMember(container, {
+                img: "./img/img3.png",
+                title: "BOSEYA Kalume Flory",
+                bio: bio[0],
+                moi:``,
+                identity: `
+               <div class="portfo-item2-identity">
+                    <h3>Sexe</h3>
+                    <p>Masculin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>Congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né(e) à kisangani </h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>Adolphe BOSEYA & Adolphine kiza</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>Aîné d'une grande famille, né dans une fratrie de 4</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>Tshopo</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>Walengola-Babira</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>---------</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>---------</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>je fais la primaire à l'école la montagne,  pour continuer avec la 
+    Deuxième année à l'école Saint perpétue ou j'ai obtenus mon certificat,  je fais les 
+    secondaires au C.S Israël,  pour enfin finir les humanité au *collège le grain de senevé</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>
+			× Faire du câblage
+            × crée un réseau local 
+            × crée un site web Dynamique 
+            × crée de petit programme 
+		    </p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>1 année d'expérience chez *CEDRIC'S PHOTO LAB* entant que Maintenancien 
+    des équipements informatiques et appareils photo 📸, 2 chez *Goat tech* 
+    entant que consultant indépendant</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>Basketball <br>
+                        <strong>Divertissement fav :</strong>Velo, Musique, Basketball <br>
+                        <strong>Animal :</strong>chien et Cheval <br>
+                        <strong>Couleur :</strong>Noir , Bleu, Vert <br>
+                        <strong>Plat :</strong>Fubwa, Pondu <br>
+                        <strong>Acteur :</strong>Thom cruis <br>
+                        <strong>Musiciens :</strong>Gunna, SDM, L2B gang, Damso, Fally ipupa, Koffi <br>
+                        <strong>Films :</strong>Avengers , spideran <br>
+                        <strong>Série :</strong>Good Doctor, Dr house, snowfools, Magnum, Prison break
+                    </p>
+                </div>  
+                `
+            })
+
+            addMember(container, {
+                img: "./img/noImg.png",
+                title: "Mukambila wa mbaya Beniel",
+                bio: bio[0],
+                moi:``,
+                identity: `
+                <div class="portfo-item2-identity">
+                    <h3>Sexe</h3>
+                    <p>Masculin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>Congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né(e) à MBUJI MAYI le 03/04</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>MBAYA MUKANDILA & NGUDIA KADIMA</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>je suis d'une petite famille de cinq ; une fille, deux garçons dont je suis le second.</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>Lomami</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>Ngandajika</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>bena-kalabay</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>singe</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>études humanitaire en latin philosophie et poursuivant ses études en sciences informatiques</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>penseur, polymathe , bosseur.</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>aucune</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>football <br>
+                        <strong>Divertissement fav :</strong>aucune <br>
+                        <strong>Animal :</strong>chat <br>
+                        <strong>Couleur :</strong>rouge <br>
+                        <strong>Plat :</strong>aucun <br>
+                        <strong>Acteur :</strong>aucun <br>
+                        <strong>Musiciens :</strong>aucun <br>
+                        <strong>Films :</strong>aucun <br>
+                        <strong>Série :</strong>aucun
+                    </p>
+                </div> 
+                `
+            })
+       
+            addMember(container, {
+                img: "./img/noImg.png",
+                title: "Tshilumba Tshilumba Jonathan",
+                bio: bio[0],
+                moi:`
+                Je suis étudiant de la L2 informatique, depuis mon jeune âge , j'ai toujours été passionné par la technologie,je propose des solutions logicielles  ou matérielles en analysant  les besoins quotidiens , le travail en équipe est un atout majeur, j'suis de la religion chrétienne ,je fréquente l'église Évangiles de vie extension la borne
+                `,
+                identity: `
+                <div class="portfo-item2-identity">
+                    <h3>Sexe</h3>
+                    <p>Masculin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>Congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né à ilebo , le 01/08</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>Tshilumba & Pelenge</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p> je suis né dans une famille de 4 enfants dont je suis l'aîné suivi d'un garçon et 2 sœurs</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>Kasaï central</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>Dimbelenge</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>Lubi</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>singe</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p>primaire :Complexe scolaires saint jacques, humanité : collège Prince de la paix</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>aucune</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>aucune</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>football <br>
+                        <strong>Divertissement fav :</strong>La musique <br>
+                        <strong>Animal :</strong>chien <br>
+                        <strong>Couleur :</strong>bleu <br>
+                        <strong>Plat :</strong>aucun <br>
+                        <strong>Acteur :</strong>aucun <br>
+                        <strong>Musiciens :</strong>aucun <br>
+                        <strong>Films :</strong>aucun <br>
+                        <strong>Série :</strong>scorpion
+                    </p>
+                </div> 
+`})
+  
+            addMember(container, {
+                img: "./img/lekiary.png",
+                title: "Lekiary wolo Exaucé",
+                bio: bio[0],
+                moi:`
+                Je suis étudiant à l’université de protestante au Congo , je suis passionné par la mode , les voitures ,la cosmétique ainsi qu’aux réseaux sociaux (social media manager) , je sers mon Dieu au protocole à l’église de mangembo
+                `,
+                identity: `
+                <div class="portfo-item2-identity">
+                    <h3>Sexe</h3>
+                    <p>Masculin</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Nationalité</h3>
+                    <p>Congolaise</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Né(e) à Kinshasa le 19/07</h3>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Noms du père & de la mère</h3>
+                    <p>lekiary & londa</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Petite description familiale</h3>
+                    <p>je suis dans une famille de 4 je suis l’ainée j’ai une sœur et deux frère</p>
+                </div>  
+                <div class="portfo-item2-identity">
+                    <h3>Province d’origine</h3>
+                    <p>---------</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Territoire</h3>
+                    <p>---------</p>
+                </div> 
+                <div class="portfo-item2-identity">
+                    <h3>Secteur</h3>
+                    <p>---------</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Signe astrologique</h3>
+                    <p>cancer</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Parcours éducatif</h3>
+                    <p> C.S Zuza , collège John mabuidi</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Compétences</h3>
+                    <p>chanter et danser</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Expérience professionnelle</h3>
+                    <p>aucune</p>
+                </div>
+                <div class="portfo-item2-identity">
+                    <h3>Préférence</h3>
+                    <p>
+                        <strong>Sport :</strong>Natation <br>
+                        <strong>Divertissement fav :</strong>shopping, danse <br>
+                        <strong>Animal :</strong>chien <br>
+                        <strong>Couleur :</strong>noir <br>
+                        <strong>Plat :</strong>viande de porc mélanger avec des pommes de terre <br>
+                        <strong>Acteur :</strong>Julio pena <br>
+                        <strong>Musiciens :</strong>Fally pupa et Aya nakamura <br>
+                        <strong>Films :</strong>A travers ma fenêtre <br>
+                        <strong>Série :</strong>mes premières fois
+                    </p>
+                </div> 
+`})
+            
+
+        })
+
+
+    </script>
+</body>
+
+</html>

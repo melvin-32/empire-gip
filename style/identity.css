@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    background-color: #1b0505;
+    width: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FF0000;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    background-color: #000;
+    width: 100%;
+    color: #fcfcfc;
+    letter-spacing: 1px;
+}
+
+.portfo {
+    width: 100%;
+    padding: 20px;
+}
+
+.portfo-item1 {
+    box-shadow: 0px 0px 3px 2px #2c2c2c9d;
+    background: linear-gradient(135deg, #FF0000 0%, #000000 100%);
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.portfo-item1-img {
+    width: auto;
+    height: 300px;
+    overflow: hidden;
+}
+
+.portfo-item1-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfo-item1-text {
+    width: 400px;
+}
+
+.portfo-item1-text h2 {
+    font-size: 28pt;
+    color: #fcfcfc;
+}
+
+.portfo-item1-text h3 {
+    font-size: 16pt;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #e9cd31;
+}
+
+/*-----*/
+.portfo-item2 {
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 350px);
+    gap: 20px;
+}
+
+.portfo-item2-identity {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 3px 2px #2c2c2c9d;
+    gap: 3px;
+    text-transform: capitalize;
+}
+
+.portfo-item2-identity h3 {
+    color: #e9cd31;
+}
+
+
+@media screen and (max-width:1200px) {
+
+    .portfo-item2 {
+        grid-template-columns: repeat(2, 350px);
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .portfo-item1 {
+        height: 250px;
+        gap: 15px;
+    }
+
+    .portfo-item1-img {
+        height: 215px;
+    }
+
+    .portfo-item2 {
+        grid-template-columns: repeat(1, 300px);
+        font-size: 10pt;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .portfo-item1-text {
+        width: 250px;
+    }
+
+    .portfo-item1-text h2 {
+        font-size: 14pt;
+    }
+
+    .portfo-item1-text h3 {
+        font-size: 9pt;
+    }
+        .portfo-item1-text p {
+            font-size: 7pt;
+        }
+
+}
